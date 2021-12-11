@@ -5,6 +5,8 @@ function answer(diameter) {
     let radius = diameter / 2;
     let solution = radius * radius * PI;
     alert(`The answer is ${solution}`);
+    
+    return solution;
 }
 
 answer(diameterInput);
