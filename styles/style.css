@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Road+Rage&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #9034;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000;
+  min-height: 100vh;
+}
+
+button:hover {
+  background: #ff0000;
+  color: #fff;
+  -webkit-box-shadow: 0 0 70px var(--clr), 0 0 100px var(--clr), 0 0 150px var(--clr);
+          box-shadow: 0 0 70px var(--clr), 0 0 100px var(--clr), 0 0 150px var(--clr);
+}
+
+.btn {
+  display: block;
+  outline: none;
+  font-weight: 700;
+  border: 0;
+  padding: 16px 30px;
+  line-height: 1;
+  border-radius: 20px;
+  font-size: 50px;
+  font-family: 'Road Rage', cursive;
+  -webkit-transition: 2s;
+  transition: 2s;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

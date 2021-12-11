@@ -1,0 +1,13 @@
+@mixin displayFlex() {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+}
+
+@mixin original() {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #9034;
+}
